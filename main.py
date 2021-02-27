@@ -1,6 +1,6 @@
 from random import randint
 
-#Create class
+# Create class
 class BankAccount:
     account_number = randint(0,99999999)
     routing_number = 123456789
