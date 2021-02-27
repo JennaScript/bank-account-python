@@ -30,7 +30,7 @@ class BankAccount:
     def print_receipt(self):
         print(f"\n{self.full_name}\nAccount No.: {self.account_number} \nRouting No.: {self.routing_number}\nBalance: ${round(self.balance, 2)}")
 
-#Call functions
+# Call functions
 jennalyn_account = BankAccount("Jennalyn Kabiling")
 disney_account = BankAccount("Walt Disney")
 rowling_account = BankAccount("J.K Rowling")
