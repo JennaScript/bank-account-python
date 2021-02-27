@@ -35,6 +35,7 @@ jennalyn_account = BankAccount("Jennalyn Kabiling")
 disney_account = BankAccount("Walt Disney")
 rowling_account = BankAccount("J.K Rowling")
 
+# Jennalyn's account
 jennalyn_account.deposit(100)
 jennalyn_account.print_receipt()
 
@@ -43,3 +44,23 @@ jennalyn_account.print_receipt()
 
 jennalyn_account.withdraw(1000)
 jennalyn_account.print_receipt()
+
+# Disney's account
+disney_account.deposit(100)
+disney_account.print_receipt()
+
+disney_account.add_interest()
+disney_account.print_receipt()
+
+disney_account.withdraw(1000)
+disney_account.print_receipt()
+
+# J.K. Rowling's account
+rowling_account.deposit(100)
+rowling_account.print_receipt()
+
+rowling_account.add_interest()
+rowling_account.print_receipt()
+
+rowling_account.withdraw(1000)
+rowling_account.print_receipt()
